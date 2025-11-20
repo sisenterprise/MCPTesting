@@ -1,0 +1,37 @@
+{
+  "servers": [
+    {
+      "server": {
+        "id": "11111111-2222-3333-4444-555555555555",
+        "name": "com.sis/azure-devops-mcp",
+        "description": "Azure DevOps MCP server for SIS that can list work items and pull requests.",
+        "repository": {
+          "url": "https://github.com/sisenterprise/AzureDevOpsMcpServer",
+          "source": "github",
+          "id": "azure-devops-mcp-server"
+        },
+        "version_detail": {
+          "version": "1.0.0"
+        },
+        "remotes": [
+          {
+            "transport_type": "streamable",
+            "url": "https://example.invalid/mcp/azure-devops",
+            "headers": [
+              {
+                "name": "Authorization",
+                "description": "Bearer token or PAT used if you ever host this as a remote MCP server.",
+                "is_required": false,
+                "is_secret": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "next_cursor": "",
+    "count": 1
+  }
+}
