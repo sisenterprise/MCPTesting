@@ -1,1 +1,12 @@
+{
+  "$schema": "https://modelcontextprotocol.dev/server.schema.json",
+  "id": "example-server",
+  "name": "Example MCP Server",
+  "description": "A placeholder MCP server used for testing registry integration.",
+  "versions": {
+    "1.0": {
+      "entrypoint": "server.json"
+    }
+  }
+}
 
