@@ -1,9 +1,11 @@
 {
+  "$schema": "https://modelcontextprotocol.dev/registry.schema.json",
+  "version": "1.0",
   "servers": [
     {
-      "id": "azure-devops-mcp",
-      "name": "Azure DevOps MCP",
-      "url": "https://raw.githubusercontent.com/<yourUser>/<yourRepo>/main/server.json"
+      "id": "example-server",
+      "name": "Example MCP Server",
+      "url": "https://raw.githubusercontent.com/sisenterprise/MCPTesting/master/v0/servers/example-server.json"
     }
   ]
 }
