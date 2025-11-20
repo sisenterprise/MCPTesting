@@ -1,9 +1,0 @@
-{
-  "servers": [
-    {
-      "id": "azure-devops-mcp",
-      "name": "Azure DevOps MCP",
-      "url": "https://raw.githubusercontent.com/<yourUser>/<yourRepo>/main/server.json"
-    }
-  ]
-}
