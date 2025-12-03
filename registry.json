@@ -5,7 +5,7 @@
     {
       "id": "example-server",
       "name": "Example MCP Server",
-      "url": "https://raw.githubusercontent.com/sisenterprise/MCPTesting/master/v0/servers/example-server.json"
+      "url": "https://sisenterprise.github.io/MCPTesting/v0/servers/example-server.json"
     }
   ]
 }
